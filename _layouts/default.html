@@ -6,6 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{page.title}} | {{site.name}}</title>
 
+
+    <style>
+        .spazio {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+    </style>
     {% seo %}
 
     <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/{{site.favicon}}">
@@ -34,7 +47,7 @@
 </head>
 
 <body class="{% if page.url == "/" %} homefirstpage {% endif %}">
-
+<div class="spazio">
     <!-- Navbar -->
     <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
     <div class="container">
@@ -45,7 +58,7 @@
         </div>
     </div>
     </nav>
-
+</div>
     <!-- Search Results -->
     <div id="lunrsearchresults">
         <ul class="mb-0"></ul>
