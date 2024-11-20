@@ -3,7 +3,7 @@ name: 'confessions of a bisexual teen'
 description: '...'
 logo: 'confessions-of-a-bisexual-teen.github.io/assets/images/Progetto_senza_titolo-removebg-preview.png'
 favicon: 'confessions-of-a-bisexual-teen.github.io/assets/images/Progetto_senza_titolo-removebg-preview.png'
-baseurl: 'https://confession-of-a-bisexual-teen.github.io'
+baseurl: ''
 
 include: ["_pages"]
 permalink: /:title/
