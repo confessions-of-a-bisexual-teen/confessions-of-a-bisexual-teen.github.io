@@ -65,12 +65,16 @@
     padding: 2rem 0;
   }
   .post-card {
-    background-color: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
+      display: inline-block;
+      width: 300px; /* Larghezza fissa per i post */
+      margin: 20px; /* Spazio attorno a ciascun post */
+      padding: 1rem;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: left;
   }
+
   .post-card:hover {
     transform: scale(1.02);
     }.post-card img {
