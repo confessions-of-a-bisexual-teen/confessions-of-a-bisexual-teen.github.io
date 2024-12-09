@@ -73,12 +73,13 @@
   }
   .post-card:hover {
     transform: scale(1.02);
+    }.post-card img {
+      width: 100%; /* Si adatta alla larghezza del contenitore */
+      height: 200px; /* Altezza specifica per tutte le immagini */
+      object-fit: cover; /* Garantisce che l'immagine si adatti senza deformazioni */
+      border-bottom: 2px solid #ddd; /* Divider estetico opzionale */
   }
-  .post-card img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-  }
+
   .post-card h3 {
     margin: 1rem;
     font-size: 1.25rem;
