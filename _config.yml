@@ -1,54 +1,18 @@
-# Site
-name: 'confessions of a bisexual teen'
-description: '...'
-logo: 'confessions-of-a-bisexual-teen.github.io/assets/images/Progetto_senza_titolo-removebg-preview.png'
-favicon: 'confessions-of-a-bisexual-teen.github.io/assets/images/Progetto_senza_titolo-removebg-preview.png'
-baseurl: ''
+title: "Confession of Bisexual Teen"
+baseurl: ""
+author: "Il tuo nome"
+email: "tuo@email.com"
+description: "Un blog per condividere esperienze e riflessioni sulla bisessualità"
+paginate: 5
 
-include: ["_pages"]
-permalink: /:title/
+# Categorie disponibili
+categories:
+  - Personale
+  - Riflessioni
+  - Esperienze
 
-# Plugins
-plugins: 
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-seo-tag
-  
-authors:
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      avatar:         /assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
- 
-# Defaults
-defaults:
-
-  # all posts
-  - scope:
-      path: "_posts"
-    values:
-      layout: post
-      author: sal
-      avatar: /assets/images/avatar1.jpg
-      
-  # all pages
-  - scope:
-      path: "_pages"
-    values:
-      layout: page
-      
-# Syntax
-markdown: kramdown
-highlighter: rouge
-
-# Paginate
-paginate: 10
-
-
-
-# Exclude metadata and development time dependencies (like Grunt plugins)
-exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
+# Tema colori
+theme:
+  primary: "#9B4F96"
+  secondary: "#D60270"
+  accent: "#FFCB00"
