@@ -9,8 +9,6 @@ title: "Confession of Bisexual Teen"
   <div class="hero-content">
     <h1>Ultimo post: {{ latest_post.title }}</h1>
     <p>{{ latest_post.excerpt }}</p>
-    <p><b>Pubblicato in:</b> {{ latest_post.categories | join: ", " }}</p>
-    <p><b>Pubblicato da:</b> {{ latest_post.author | default: "Anonimo" }}</p>
     <a href="{{ post.url }}">Leggi di più</a>
   </div>
 </section>
