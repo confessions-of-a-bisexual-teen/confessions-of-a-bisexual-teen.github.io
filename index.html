@@ -2,15 +2,16 @@
 layout: default
 title: "Confession of Bisexual Teen"
 ---
-
+<!-- Hero Section con l'ultimo post -->
 <section class="hero">
-  {% assign latest_post = site.posts | first %}
-  <img src="{{ latest_post.image }}" alt="Post Image">
+  {% assign latest_post = site.posts[0] %}
+  <img src="{{ latest_post.featured_image }}" alt="Post Image">
   <div class="hero-content">
     <h1>Ultimo post: {{ latest_post.title }}</h1>
-    <p>{{ latest_post.excerpt | strip_html }}</p>
+    <p>{{ latest_post.excerpt }}</p>
     <p><b>Pubblicato in:</b> {{ latest_post.categories | join: ", " }}</p>
-    <a href="{{ latest_post.url }}">Leggi di più</a>
+    <p><b>Pubblicato da:</b> {{ latest_post.author | default: "Anonimo" }}</p>
+    <a href="{{ latest_post.url }}" class="hero-link">Leggi l'intero post</a>
   </div>
 </section>
 
