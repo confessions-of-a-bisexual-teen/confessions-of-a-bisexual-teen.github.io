@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.navbar {
+  background-color: #9B4F96;
+  padding: 1rem;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.hero {
+  display: flex;
+  background-color: #D60270;
+  color: #fff;
+  padding: 3rem 1rem;
+}
+
+.hero img {
+  max-width: 50%;
+  margin-right: 2rem;
+  border-radius: 10px;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.post-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.post-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  padding: 1rem;
+  width: 300px;
+  text-align: left;
+}
