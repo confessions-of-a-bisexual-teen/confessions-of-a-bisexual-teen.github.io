@@ -11,7 +11,7 @@ title: "Confession of Bisexual Teen"
     <p>{{ latest_post.excerpt }}</p>
     <p><b>Pubblicato in:</b> {{ latest_post.categories | join: ", " }}</p>
     <p><b>Pubblicato da:</b> {{ latest_post.author | default: "Anonimo" }}</p>
-    <a href="{{ latest_post.url }}" class="hero-link">Leggi l'intero post</a>
+    <a href="{{ post.url }}">Leggi di più</a>
   </div>
 </section>
 
