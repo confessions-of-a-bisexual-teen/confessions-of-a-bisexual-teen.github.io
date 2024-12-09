@@ -49,3 +49,17 @@ body {
   width: 300px;
   text-align: left;
 }
+/* Stili aggiornati per le immagini */
+img {
+  max-width: 100%; /* Si adatta alla larghezza del contenitore */
+  height: auto;    /* Mantiene le proporzioni */
+  display: block;  /* Evita spazi indesiderati sotto le immagini */
+  margin: 0 auto;  /* Centra l'immagine nel contenitore */
+}
+
+/* Adattamento specifico per le immagini nei post */
+.post-card img {
+  max-width: 100%; /* Si adatta al contenitore della card */
+  height: auto;    /* Mantiene le proporzioni */
+  border-radius: 10px;
+}
