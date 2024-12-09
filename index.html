@@ -28,22 +28,3 @@ title: "Confession of Bisexual Teen"
     {% endfor %}
   </div>
 </section>
-
-<section class="categorie">
-  <h2>Categorie</h2>
-  {% for category in site.categories %}
-  <section class="categoria">
-    <h3>{{ category[0] }}</h3>
-    <div class="post-container">
-      {% for post in category[1] %}
-      <div class="post-card">
-        <img src="{{ post.image }}" alt="{{ post.title }}">
-        <h3>{{ post.title }}</h3>
-        <p>{{ post.excerpt | strip_html }}</p>
-        <a href="{{ post.url }}">Leggi di più</a>
-      </div>
-      {% endfor %}
-    </div>
-  </section>
-  {% endfor %}
-</section>
